@@ -12,6 +12,15 @@ namespace RugbyApp_Main
         public MainPage()
         {
             InitializeComponent();
+            BackImage();
+        }
+
+        private void BackImage()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.HomePic.jpg";
+            backgroundPic.Source = ImageSource.FromResource(FileName, assembly);
+
         }
     }
 }
