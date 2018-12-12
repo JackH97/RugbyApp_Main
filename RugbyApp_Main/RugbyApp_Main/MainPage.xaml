@@ -33,8 +33,15 @@
                         Clicked="btnTop5_Clicked"
                         BackgroundColor="White"/>
 
+                <Button x:Name="btnTeams" 
+                        Text="Rugby Teams"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Clicked="btnTeams_Clicked"
+                        BackgroundColor="White"/>
 
-              </Grid>
+
+            </Grid>
 
         
         </Grid>

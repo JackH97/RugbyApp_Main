@@ -27,5 +27,10 @@ namespace RugbyApp_Main
         {
             await Navigation.PushAsync(new Top5Players());
         }
+
+        async void btnTeams_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RugbyTeams());
+        }
     }
 }
