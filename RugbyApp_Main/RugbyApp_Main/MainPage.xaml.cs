@@ -22,5 +22,10 @@ namespace RugbyApp_Main
             backgroundPic.Source = ImageSource.FromResource(FileName, assembly);
 
         }
+
+        async void btnTop5_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Top5Players());
+        }
     }
 }
