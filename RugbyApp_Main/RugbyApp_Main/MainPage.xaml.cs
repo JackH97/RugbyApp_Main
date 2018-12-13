@@ -47,5 +47,10 @@ namespace RugbyApp_Main
         {
             await Navigation.PushAsync(new Top5RugbyMoments());
         }
+
+        async void btnUnionVsLeague_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UnionVsLeague());
+        }
     }
 }

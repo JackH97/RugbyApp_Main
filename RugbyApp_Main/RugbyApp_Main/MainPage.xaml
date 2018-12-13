@@ -61,6 +61,13 @@
                         Clicked="btnMoments_Clicked"
                         BackgroundColor="White"/>
 
+                <Button x:Name="btnUnionVSLeague"
+                        Text="Rugby Union VS League"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Clicked="btnUnionVsLeague_Clicked"
+                        BackgroundColor="White"/>
+
 
             </Grid>
 
