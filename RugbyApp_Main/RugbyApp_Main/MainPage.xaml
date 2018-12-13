@@ -47,6 +47,13 @@
                         Clicked="btnTournaments_Clicked"
                         BackgroundColor="White"/>
 
+                <Button x:Name="btnDerbies"
+                        Text="Top 5 Rugby Derbies"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Clicked="btnDerbies_Clicked"
+                        BackgroundColor="White"/>
+
 
             </Grid>
 

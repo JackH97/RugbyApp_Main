@@ -37,5 +37,10 @@ namespace RugbyApp_Main
         {
             await Navigation.PushAsync(new Tournaments());
         }
+
+        async void btnDerbies_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RugbyDerbies());
+        }
     }
 }
