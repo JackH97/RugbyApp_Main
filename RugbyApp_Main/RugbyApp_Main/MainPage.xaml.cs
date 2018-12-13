@@ -32,5 +32,10 @@ namespace RugbyApp_Main
         {
             await Navigation.PushAsync(new RugbyTeams());
         }
+
+        async void btnTournaments_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Tournaments());
+        }
     }
 }
