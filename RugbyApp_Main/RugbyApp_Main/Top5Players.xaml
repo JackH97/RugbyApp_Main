@@ -5,5 +5,6 @@
             x:Class="RugbyApp_Main.Top5Players">
 
     <Top5Players:BrianODriscoll Title="Brian O'Driscoll"/>
-    
+    <Top5Players:JonahLomu Title="Jonah Lomu"/>
+
 </TabbedPage>
