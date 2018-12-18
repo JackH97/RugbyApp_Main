@@ -4,9 +4,46 @@
              x:Class="RugbyApp_Main.RichieMcCaw">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Richie McCaw"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ScrollView>
+                <StackLayout BackgroundColor="Black">
+
+                  <Image x:Name="richiemccaw1" Aspect="AspectFit"></Image>
+                  <Label Text="Jonah Lomu" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                  <Label Text="Richard Hugh McCaw ONZ (born 31 December 1980) is a retired New Zealand rugby union player. He captained the national team, the All Blacks, in 110 out of his 148 test matches, and won two Rugby World Cups. He is the most capped test rugby player of all time, and has won the World Rugby player of the year award a joint record three times."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  TextColor="White"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="McCaw was the first All Black to reach 100 caps, and the first rugby union player to win 100 tests. He is the most-capped player in rugby union history with 148 caps, having overtaken Brian O'Driscoll's record in 2015. McCaw has also equaled the record for most appearances at the Rugby World Cup with Jason Leonard."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  TextColor="White"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="McCaw predominantly played in the openside flanker position for the New Zealand, Crusaders and Canterbury teams, but also played as a blindside flanker and no. 8. During McCaw's career, Canterbury won the NPC (later Mitre10 Cup) five times, and the Crusaders won four Super Rugby titles. As well as two world cups, the All Blacks won seven Tri-Nations titles, completed three successful Grand Slam tours and won the Bledisloe Cup eight times."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  TextColor="White"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="He made his debut in 2001 for the Crusaders, and was selected for the All Blacks' 2001 end-of-year tour, despite having played only eight minutes of Super 12 rugby. His debut for New Zealand was against Ireland, where he was awarded man-of-the-match. McCaw became a regular selection for New Zealand, only missing a few games due to recurring concussions. In 2004 he was appointed captain of the All Blacks, whom he led at the 2007 World Cup. After their elimination in the quarter-finals, his captaincy came under criticism, but he was retained and eventually led the team to consecutive world cup titles in 2011 and 2015, becoming one of only twenty players who have won two rugby union world cups."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  TextColor="White"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                 <Image x:Name="richiemccaw2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
