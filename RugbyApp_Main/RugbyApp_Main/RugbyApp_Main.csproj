@@ -10,11 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\bod1.jpg" />
+    <None Remove="Assets\bod2.jpg" />
     <None Remove="Assets\HomePic.jpg" />
     <None Remove="Assets\HomePic1.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\bod1.jpg" />
+    <EmbeddedResource Include="Assets\bod2.jpg" />
     <EmbeddedResource Include="Assets\HomePic.jpg" />
   </ItemGroup>
 

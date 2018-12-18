@@ -4,9 +4,36 @@
              x:Class="RugbyApp_Main.BrianODriscoll">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Brian O'Driscoll"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ScrollView>
+                <StackLayout BackgroundColor="LightGreen">
+            
+                 <Image x:Name="bod2" Aspect="AspectFit"></Image>
+                 <Label Text="Brian O'Driscoll" Font="Italic, 80"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                 <Label Text="Brian O'Driscoll (born 21 January 1979) is a retired Irish professional rugby union player. He played at outside centre for the Irish provincial team Leinster and for Ireland. He captained Ireland from 2003 until 2012, and captained the British and Irish Lions for their 2005 tour of New Zealand. He is regarded by critics as one of the greatest rugby players of all time."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                 <Label Text="O'Driscoll is the second most-capped player in rugby union history, having played 141 test matches: 133 for Ireland (83 as captain), and 8 for the British and Irish Lions. He scored 46 tries for Ireland and 1 try for the Lions in 2001, making him the highest try scorer of all time in Irish Rugby. He is the 8th-highest try scorer in international rugby union history, and the highest scoring centre of all time."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                 <Label Text="O'Driscoll holds the Six Nations record for most tries scored with 26. He has scored the most Heineken Cup tries (30) by an Irishman. O'Driscoll was chosen as Player of the Tournament in the 2006, 2007 and 2009 Six Nations Championships. He was inducted into the World Rugby Hall of Fame on 17 November 2016 at the opening ceremony for the Hall's first location in Rugby, Warwickshire."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                 <Image x:Name="bod1" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -15,6 +15,23 @@ namespace RugbyApp_Main
 		public BrianODriscoll ()
 		{
 			InitializeComponent ();
-		}
-	}
+            image1();
+            image2();
+        }
+
+        private void image1()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.bod2.jpg";
+            bod2.Source = ImageSource.FromResource(FileName, assembly);
+
+        }
+        private void image2()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.bod1.jpg";
+            bod1.Source = ImageSource.FromResource(FileName, assembly);
+
+        }
+    }
 }
