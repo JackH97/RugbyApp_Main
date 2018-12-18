@@ -14,6 +14,8 @@
     <None Remove="Assets\bod2.jpg" />
     <None Remove="Assets\dancarter1.jpg" />
     <None Remove="Assets\dancarter2.jpg" />
+    <None Remove="Assets\garethedwards1.jpg" />
+    <None Remove="Assets\garethedwards2.jpg" />
     <None Remove="Assets\HomePic.jpg" />
     <None Remove="Assets\HomePic1.jpg" />
     <None Remove="Assets\jonahlomu1.jpg" />
@@ -27,6 +29,8 @@
     <EmbeddedResource Include="Assets\bod2.jpg" />
     <EmbeddedResource Include="Assets\dancarter1.jpg" />
     <EmbeddedResource Include="Assets\dancarter2.jpg" />
+    <EmbeddedResource Include="Assets\garethedwards1.jpg" />
+    <EmbeddedResource Include="Assets\garethedwards2.jpg" />
     <EmbeddedResource Include="Assets\HomePic.jpg" />
     <EmbeddedResource Include="Assets\jonahlomu1.jpg" />
     <EmbeddedResource Include="Assets\jonahlomu2.jpg" />
