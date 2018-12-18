@@ -10,8 +10,8 @@ using Xamarin.Forms.Xaml;
 namespace RugbyApp_Main
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RugbyTeams : ContentPage
-	{
+	public partial class RugbyTeams : TabbedPage
+    {
 		public RugbyTeams ()
 		{
 			InitializeComponent ();

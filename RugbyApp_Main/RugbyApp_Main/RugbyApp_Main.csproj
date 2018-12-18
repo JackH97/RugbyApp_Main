@@ -20,6 +20,8 @@
     <None Remove="Assets\HomePic1.jpg" />
     <None Remove="Assets\jonahlomu1.jpg" />
     <None Remove="Assets\jonahlomu2.jpg" />
+    <None Remove="Assets\newzealand1.png" />
+    <None Remove="Assets\newzealand2.jpg" />
     <None Remove="Assets\richiemccaw1.jpg" />
     <None Remove="Assets\richiemccaw2.jpg" />
   </ItemGroup>
@@ -34,6 +36,8 @@
     <EmbeddedResource Include="Assets\HomePic.jpg" />
     <EmbeddedResource Include="Assets\jonahlomu1.jpg" />
     <EmbeddedResource Include="Assets\jonahlomu2.jpg" />
+    <EmbeddedResource Include="Assets\newzealand1.png" />
+    <EmbeddedResource Include="Assets\newzealand2.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw1.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw2.jpg" />
   </ItemGroup>
@@ -53,6 +57,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="JonahLomu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NewZealand.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="RichieMcCaw.xaml">
