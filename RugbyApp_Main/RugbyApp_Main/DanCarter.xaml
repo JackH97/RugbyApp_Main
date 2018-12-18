@@ -4,9 +4,36 @@
              x:Class="RugbyApp_Main.DanCarter">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Dan Carter"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ScrollView>
+                <StackLayout BackgroundColor="White">
+
+                  <Image x:Name="dancarter1" Aspect="AspectFit"></Image>
+                  <Label Text="Dan Carter" Font="Italic, 80" 
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                  <Label Text="Daniel William Carter (born 5 March 1982) is a New Zealand rugby union player."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="Carter plays for Kobelco Steelers in Japan and played for New Zealand's national team, the All Blacks. He is the highest point scorer in Test match rugby, and is considered by many experts as the greatest ever first-five eighth (fly-half) in the history of the game. He was named the International Rugby Board Player of the Year in 2005, 2012 and 2015 (equaling the record three awards of Richie McCaw) and has won three Super Rugby titles with the Crusaders, and nine Tri-Nations and Rugby Championships with the All Blacks."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="Carter injured himself during the 2011 Rugby World Cup but was a key member of the 2015 Rugby World Cup-winning teams, becoming one of only twenty dual Rugby World Cup winners. In the 2015 Rugby World Cup Final against Australia, he successfully kicked four penalties, two conversions and a drop goal. He was named the Man of the Match."
+                  XAlign="Center"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Image x:Name="dancarter2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

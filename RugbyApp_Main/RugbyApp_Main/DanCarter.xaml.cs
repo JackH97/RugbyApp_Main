@@ -15,6 +15,23 @@ namespace RugbyApp_Main
 		public DanCarter ()
 		{
 			InitializeComponent ();
-		}
-	}
+            image1();
+            image2();
+        }
+
+        private void image1()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.dancarter1.jpg";
+            dancarter1.Source = ImageSource.FromResource(FileName, assembly);
+
+        }
+        private void image2()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.dancarter2.jpg";
+            dancarter2.Source = ImageSource.FromResource(FileName, assembly);
+
+        }
+    }
 }
