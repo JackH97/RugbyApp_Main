@@ -15,6 +15,23 @@ namespace RugbyApp_Main
 		public JonahLomu ()
 		{
 			InitializeComponent ();
-		}
-	}
+            image1();
+            image2();
+        }
+
+        private void image1()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.jonahlomu1.jpg";
+            jonahlomu1.Source = ImageSource.FromResource(FileName, assembly);
+
+        }
+        private void image2()
+        {
+            var assembly = typeof(MainPage);
+            string FileName = "RugbyApp_Main.Assets.jonahlomu2.jpg";
+            jonahlomu2.Source = ImageSource.FromResource(FileName, assembly);
+
+        }
+    }
 }
