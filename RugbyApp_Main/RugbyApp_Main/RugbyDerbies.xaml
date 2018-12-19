@@ -7,5 +7,6 @@
     <RugbyDerbies:IrelandVsEngland Title="Ireland VS England"/>
     <RugbyDerbies:NewZealandVsFrance Title="New Zealand Vs France"/>
     <RugbyDerbies:LeinsterVsMunster Title="Leinster Vs Munster"/>
+    <RugbyDerbies:EnglandVsAustralia Title="England Vs Australia"/>
 
 </TabbedPage>
