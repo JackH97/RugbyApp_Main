@@ -5,6 +5,7 @@
             x:Class="RugbyApp_Main.RugbyTeams">
 
     <RugbyTeams:NewZealand Title="New Zealand"/>
+    <RugbyTeams:Ireland Title="Ireland"/>
     
 
 </TabbedPage>
