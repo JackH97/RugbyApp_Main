@@ -7,5 +7,6 @@
     <RugbyTeams:NewZealand Title="New Zealand"/>
     <RugbyTeams:Ireland Title="Ireland"/>
     <RugbyTeams:SouthAfrica Title="South Africa"/>
+    <RugbyTeams:Leinster Title="Leinster"/>
 
 </TabbedPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.Leinster">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="DarkBlue">
+
+                    <Image x:Name="leinster1" Aspect="AspectFit"></Image>
+                    <Label Text="Leinster" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="Leinster Rugby (Irish: Rugbaí Laighean) is one of the four professional provincial rugby teams from the island of Ireland and the most successful Irish team both domestically and in European competition. They compete in the Pro14 and the European Rugby Champions Cup (where their 4th title, achieved in 2018, ties the record for that competition alongside Toulouse). The team represents the Irish Rugby Football Union (IRFU) Leinster Branch, which is one of four primary branches of the IRFU and is responsible for rugby union throughout the geographical Irish province of Leinster."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Leinster play their home games primarily at the RDS Arena, although larger games are played in the Aviva Stadium when the capacity of the RDS is insufficient. Before moving to the RDS in 2005, Leinster's traditional home ground was Donnybrook Stadium, in Dublin 4. The province plays primarily in blue and the team crest features a harp within a rugby ball, the harp being taken from the flag of Leinster."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Leinster turned professional along with its fellow Irish provinces in 1995 and has competed in the Pro14 (formerly known as the Celtic League and the Pro12) since it was founded in 2001, having previously competed in the annual Irish interprovincial championship. Leinster A competed in the British and Irish Cup, winning the competition twice, before entering the Celtic Cup in 2018, winning the inaugural edition."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Leinster have five times been Pro14 champions, once European Challenge Cup winners and four times the champions of Europe."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The province's current kit is blue with a white harp and 12 navy lines, which represent the 12 counties of Leinster, while the second kit is white with a blue harp and 12 blue lines. The Leinster jersey also features four stars above the crest, to represent the four European Cup titles won to date."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Image x:Name="leinster2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
