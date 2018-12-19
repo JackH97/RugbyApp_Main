@@ -12,6 +12,8 @@
   <ItemGroup>
     <None Remove="Assets\bod1.jpg" />
     <None Remove="Assets\bod2.jpg" />
+    <None Remove="Assets\crusaders1.jpg" />
+    <None Remove="Assets\crusaders2.jpg" />
     <None Remove="Assets\dancarter1.jpg" />
     <None Remove="Assets\dancarter2.jpg" />
     <None Remove="Assets\garethedwards1.jpg" />
@@ -35,6 +37,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Assets\bod1.jpg" />
     <EmbeddedResource Include="Assets\bod2.jpg" />
+    <EmbeddedResource Include="Assets\crusaders1.jpg" />
+    <EmbeddedResource Include="Assets\crusaders2.jpg" />
     <EmbeddedResource Include="Assets\dancarter1.jpg" />
     <EmbeddedResource Include="Assets\dancarter2.jpg" />
     <EmbeddedResource Include="Assets\garethedwards1.jpg" />
@@ -60,6 +64,9 @@
 
   <ItemGroup>
     <EmbeddedResource Update="BrianODriscoll.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Crusaders.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="DanCarter.xaml">
