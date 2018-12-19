@@ -8,5 +8,6 @@
     <Tournaments:EuroRugbyChallengeCup Title="European Rugby Challenge Cup"/>
     <Tournaments:Pro14 Title="Pro 14"/>
     <Tournaments:SuperRugby Title="Super Rugby"/>
+    <Tournaments:RugbyWorldCup Title="Rugby World Cup"/>
   
 </TabbedPage>
