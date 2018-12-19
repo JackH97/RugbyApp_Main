@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.SouthAfrica">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="DarkGreen">
+
+                  <Image x:Name="southafrica1" Aspect="AspectFit"></Image>
+                  <Label Text="South Africa" Font="Italic, 80" TextColor="Gold"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                  <Label Text="The South Africa national rugby union team, commonly known as the Springboks, is governed by the South African Rugby Union. The Springboks play in green and gold jerseys with white shorts, and their emblems are the Springbok and the King Protea. The team has been representing South Africa in international rugby union since 30 July 1891, when they played their first test match against a British Isles touring team."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="Although South Africa was instrumental in the creation of the Rugby World Cup competition, the Springboks did not compete in the first two World Cups in 1987 and 1991 because of anti-apartheid sporting boycotts of South Africa. The team made its World Cup debut in 1995, when the newly democratic South Africa hosted the tournament. The Springboks defeated the All Blacks 15–12 in the final, which is now remembered as one of the greatest moments in South Africa's sporting history, and a watershed moment in the post-Apartheid nation-building process. South Africa regained their title as champions 12 years later, when they defeated England 15–6 in the 2007 final. As a result of the 2007 World Cup tournament the Springboks were promoted to first place in the IRB World Rankings, a position they held until July the following year when New Zealand regained the top spot. They were named 2008 World Team of the Year at the Laureus World Sports Awards."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="The Springboks also compete in the annual Rugby Championship (formerly the Tri-Nations), along with southern-hemisphere counterparts Argentina, Australia and New Zealand. They have won this championship on three occasions in sixteen years. They also play Test matches against the various rugby-playing nations. Their position in the World Rugby Rankings has varied between the No. 1 and No. 7 positions."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                  <Label Text="South Africa play in green jerseys with a gold collar and trim, white shorts and green socks. The jersey is embroidered with the SA Rugby logo on the wearer's left chest and the springbok logo on the right chest."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                 <Image x:Name="southafrica2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

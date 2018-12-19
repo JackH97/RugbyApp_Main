@@ -6,6 +6,6 @@
 
     <RugbyTeams:NewZealand Title="New Zealand"/>
     <RugbyTeams:Ireland Title="Ireland"/>
-    
+    <RugbyTeams:SouthAfrica Title="South Africa"/>
 
 </TabbedPage>

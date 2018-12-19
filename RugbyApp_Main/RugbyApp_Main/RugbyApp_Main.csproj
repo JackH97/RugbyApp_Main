@@ -26,6 +26,8 @@
     <None Remove="Assets\newzealand2.jpg" />
     <None Remove="Assets\richiemccaw1.jpg" />
     <None Remove="Assets\richiemccaw2.jpg" />
+    <None Remove="Assets\southafrica1.png" />
+    <None Remove="Assets\southafrica2.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,6 +46,8 @@
     <EmbeddedResource Include="Assets\newzealand2.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw1.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw2.jpg" />
+    <EmbeddedResource Include="Assets\southafrica1.png" />
+    <EmbeddedResource Include="Assets\southafrica2.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -76,6 +80,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="RugbyTeams.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SouthAfrica.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Top5Players.xaml">
