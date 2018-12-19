@@ -46,6 +46,8 @@
     <None Remove="Assets\Pro142.jpg" />
     <None Remove="Assets\richiemccaw1.jpg" />
     <None Remove="Assets\richiemccaw2.jpg" />
+    <None Remove="Assets\rugbyunion1.jpg" />
+    <None Remove="Assets\rugbyunion2.png" />
     <None Remove="Assets\rugbyworldcup1.jpg" />
     <None Remove="Assets\rugbyworldcup2.jpg" />
     <None Remove="Assets\southafrica1.png" />
@@ -90,6 +92,8 @@
     <EmbeddedResource Include="Assets\Pro142.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw1.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw2.jpg" />
+    <EmbeddedResource Include="Assets\rugbyunion1.jpg" />
+    <EmbeddedResource Include="Assets\rugbyunion2.png" />
     <EmbeddedResource Include="Assets\rugbyworldcup1.jpg" />
     <EmbeddedResource Include="Assets\rugbyworldcup2.jpg" />
     <EmbeddedResource Include="Assets\southafrica1.png" />
@@ -158,6 +162,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="RugbyTeams.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RugbyUnion.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="RugbyWorldCup.xaml">
