@@ -16,6 +16,8 @@
     <None Remove="Assets\crusaders2.jpg" />
     <None Remove="Assets\dancarter1.jpg" />
     <None Remove="Assets\dancarter2.jpg" />
+    <None Remove="Assets\Diff1.jpg" />
+    <None Remove="Assets\diff2.jpg" />
     <None Remove="Assets\englandvsaustralia1.jpg" />
     <None Remove="Assets\englandvsaustralia2.jpg" />
     <None Remove="Assets\englandvswales1.jpg" />
@@ -65,6 +67,8 @@
     <EmbeddedResource Include="Assets\crusaders2.jpg" />
     <EmbeddedResource Include="Assets\dancarter1.jpg" />
     <EmbeddedResource Include="Assets\dancarter2.jpg" />
+    <EmbeddedResource Include="Assets\diff1.jpg" />
+    <EmbeddedResource Include="Assets\diff2.jpg" />
     <EmbeddedResource Include="Assets\englandvsaustralia1.jpg" />
     <EmbeddedResource Include="Assets\englandvsaustralia2.jpg" />
     <EmbeddedResource Include="Assets\englandvswales1.jpg" />
@@ -118,6 +122,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="DanCarter.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DifferenceBetweenUandL.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="EnglandVsAustralia.xaml">
