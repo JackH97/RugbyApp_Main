@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.EnglandVsWales">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="DarkRed">
+
+                    <Image x:Name="englandvswales1" Aspect="AspectFit"></Image>
+                    <Label Text="England Vs Australia" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="England and Wales have played each other at rugby union since 1881. A total of 131 matches have been played, with England having won 62 times, Wales having won 57 times and 12 matches having been drawn. There is a considerable rivalry between the sides due to the proximity of the two nations and the history between them."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="In the Rugby World Cup, England have played Wales on three occasions; England winning once, Wales twice with no matches drawn. In these games, England have scored 56 points, and Wales 61."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="In the Six Nations Championship (2000–present), England have played Wales on 19 occasions; England winning thirteen, Wales six with no matches drawn. In these games, England have scored 484 points, and Wales 329."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Overall, England and Wales have played 131 times, having drawn 12 times: England won 62 games and scored 1,763 points while Wales won 57 games and scored 1,550 points."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Image x:Name="englandvswales2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

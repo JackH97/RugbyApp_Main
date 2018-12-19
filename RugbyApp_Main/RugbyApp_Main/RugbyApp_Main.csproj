@@ -18,6 +18,8 @@
     <None Remove="Assets\dancarter2.jpg" />
     <None Remove="Assets\englandvsaustralia1.jpg" />
     <None Remove="Assets\englandvsaustralia2.jpg" />
+    <None Remove="Assets\englandvswales1.jpg" />
+    <None Remove="Assets\englandvswales2.jpg" />
     <None Remove="Assets\eurochallengecup1.png" />
     <None Remove="Assets\eurochallengecup2.jpg" />
     <None Remove="Assets\eurochampcup1.jpg" />
@@ -61,6 +63,8 @@
     <EmbeddedResource Include="Assets\dancarter2.jpg" />
     <EmbeddedResource Include="Assets\englandvsaustralia1.jpg" />
     <EmbeddedResource Include="Assets\englandvsaustralia2.jpg" />
+    <EmbeddedResource Include="Assets\englandvswales1.jpg" />
+    <EmbeddedResource Include="Assets\englandvswales2.jpg" />
     <EmbeddedResource Include="Assets\eurochallengecup1.png" />
     <EmbeddedResource Include="Assets\eurochallengecup2.jpg" />
     <EmbeddedResource Include="Assets\eurochampcup1.jpg" />
@@ -109,6 +113,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="EnglandVsAustralia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="EnglandVsWales.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="EuroRugbyChallengeCup.xaml">
