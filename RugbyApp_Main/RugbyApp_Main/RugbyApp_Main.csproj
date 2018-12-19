@@ -16,6 +16,8 @@
     <None Remove="Assets\crusaders2.jpg" />
     <None Remove="Assets\dancarter1.jpg" />
     <None Remove="Assets\dancarter2.jpg" />
+    <None Remove="Assets\eurochallengecup1.png" />
+    <None Remove="Assets\eurochallengecup2.jpg" />
     <None Remove="Assets\eurochampcup1.jpg" />
     <None Remove="Assets\eurochampcup2.jpg" />
     <None Remove="Assets\garethedwards1.jpg" />
@@ -43,6 +45,8 @@
     <EmbeddedResource Include="Assets\crusaders2.jpg" />
     <EmbeddedResource Include="Assets\dancarter1.jpg" />
     <EmbeddedResource Include="Assets\dancarter2.jpg" />
+    <EmbeddedResource Include="Assets\eurochallengecup1.png" />
+    <EmbeddedResource Include="Assets\eurochallengecup2.jpg" />
     <EmbeddedResource Include="Assets\eurochampcup1.jpg" />
     <EmbeddedResource Include="Assets\eurochampcup2.jpg" />
     <EmbeddedResource Include="Assets\garethedwards1.jpg" />
@@ -74,6 +78,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="DanCarter.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="EuroRugbyChallengeCup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="EuroRugbyChampionsCup.xaml">
