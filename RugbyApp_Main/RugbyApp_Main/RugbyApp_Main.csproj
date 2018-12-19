@@ -34,6 +34,8 @@
     <None Remove="Assets\leinster2.jpg" />
     <None Remove="Assets\newzealand1.png" />
     <None Remove="Assets\newzealand2.jpg" />
+    <None Remove="Assets\newzealandvsfrance1.jpg" />
+    <None Remove="Assets\newzealandvsfrance2.jpg" />
     <None Remove="Assets\Pro141.jpg" />
     <None Remove="Assets\Pro142.jpg" />
     <None Remove="Assets\richiemccaw1.jpg" />
@@ -70,6 +72,8 @@
     <EmbeddedResource Include="Assets\leinster2.jpg" />
     <EmbeddedResource Include="Assets\newzealand1.png" />
     <EmbeddedResource Include="Assets\newzealand2.jpg" />
+    <EmbeddedResource Include="Assets\newzealandvsfrance1.jpg" />
+    <EmbeddedResource Include="Assets\newzealandvsfrance2.jpg" />
     <EmbeddedResource Include="Assets\Pro141.jpg" />
     <EmbeddedResource Include="Assets\Pro142.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw1.jpg" />
@@ -118,6 +122,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="NewZealand.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NewZealandVsFrance.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pro14.xaml">

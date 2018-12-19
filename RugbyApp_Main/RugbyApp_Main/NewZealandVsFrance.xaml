@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.NewZealandVsFrance">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="Black">
+
+                    <Image x:Name="newzealandvsfrance1" Aspect="AspectFit"></Image>
+                    <Label Text="New Zealand Vs France" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="The national rugby union teams of France and New Zealand (the All Blacks) have been playing each other for over a century; as of 19 October 2015, they have played 56 Test matches against each other. The first encounter, which was also France's first Test, took place in Paris in January 1906 and was won by New Zealand 38–8. It was not until 1954 that France secured their first win over New Zealand (3–0)."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="France first toured New Zealand in 1961 – before any of the Home Nations – and the All Blacks won all three Tests. The All Blacks' first full tour of France was in 1977, when they won one of the two Tests. France first defeated the All Blacks in New Zealand on Bastille Day 1979. France achieved a first series win in New Zealand in 1994, when they won both Tests. Since 2000, the two teams have contested the Dave Gallaher Trophy."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The teams' World Cup history includes seven matches - the most for any pair of teams. They have played two tournament finals, in 1987 and 2011 (both at Eden Park and both won by New Zealand)."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Overall, the All Blacks have won 48 Tests against France's 12, with one match drawn. The largest winning margin in a Test between the countries was a 61–10 victory to the All Blacks at Westpac Stadium in Wellington in 2007. The most career points scored by members of either team is 92 by Andrew Mehrtens; he also holds the record for points in one match with 29."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Despite the vastly superior win record of New Zealand in this encounter, France has the greatest number of wins against the All Blacks of any Northern Hemisphere opponent to date. France are sometimes called the bogey team of New Zealand, known for having inconsistent results in regular test matches, but have proven to be fierce opponents in the knockout stage of the Rugby World Cup. All Black campaigns in The Rugby World Cup were halted by defeats to France in 1999 and 2007, and were nearly upset again in 2011 with a very narrow 8-7 victory in the final."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Image x:Name="newzealandvsfrance2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
