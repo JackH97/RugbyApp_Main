@@ -5,7 +5,8 @@
             x:Class="RugbyApp_Main.UnionVsLeague">
 
 
-    <UnionVsLeague:RugbyUnion Title="RugbyUnion"/>
+    <UnionVsLeague:RugbyUnion Title="Rugby Union"/>
+    <UnionVsLeague:RugbyLeague Title="Rugby league"/>
     
     
 </TabbedPage>

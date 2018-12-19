@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RugbyApp_Main.RugbyUnion">
+             x:Class="RugbyApp_Main.RugbyLeague">
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout BackgroundColor="DarkGreen">
+                <StackLayout BackgroundColor="DarkBlue">
 
-                    <Image x:Name="rugbyunion1" Aspect="AspectFit"></Image>
-                    <Label Text="Rugby Union" Font="Italic, 80" TextColor="White"
+                    <Image x:Name="rugbyleague1" Aspect="AspectFit"></Image>
+                    <Label Text="Rugby League" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
@@ -32,9 +32,9 @@
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
-                    
-                 
-                 <Image x:Name="rugbyunion2" Aspect="AspectFit"></Image>
+
+
+                    <Image x:Name="rugbyleague2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>
