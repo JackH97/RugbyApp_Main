@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.IrelandVsEngland">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="DarkGreen">
+
+                    <Image x:Name="IrelandVsEngland1" Aspect="AspectFit"></Image>
+                    <Label Text="Ireland Vs England" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="England and Ireland have played rugby union internationals since 1875, with England winning the first match at The Oval, London by two goals to nil. (A points scoring system was not used in rugby at the time.) The two teams have played a total of 133 Test matches; with England winning 76 of them, Ireland 49 and 8 resulting in a draw."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Apart from their annual match, currently part of the Six Nations Championship, the teams have also met in two warm-up matches prior to the 2011 and 2015 World Cups, and a one-off match in April 1988 to celebrate the millennium of the city of Dublin. The winners of the 1988 match, England, were awarded the Millennium Trophy which then became the trophy for the annual match between the teams."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The Millennium Trophy is currently held by Ireland, who won the most recent match 24–15 at the Twickenham Stadium during the 2018 Six Nations Championship."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Image x:Name="IrelandVsEngland2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
