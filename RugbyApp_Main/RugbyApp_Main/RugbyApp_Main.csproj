@@ -38,6 +38,8 @@
     <None Remove="Assets\richiemccaw2.jpg" />
     <None Remove="Assets\southafrica1.png" />
     <None Remove="Assets\southafrica2.jpg" />
+    <None Remove="Assets\superrugby1.jpg" />
+    <None Remove="Assets\superrugby2.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -68,6 +70,8 @@
     <EmbeddedResource Include="Assets\richiemccaw2.jpg" />
     <EmbeddedResource Include="Assets\southafrica1.png" />
     <EmbeddedResource Include="Assets\southafrica2.jpg" />
+    <EmbeddedResource Include="Assets\superrugby1.jpg" />
+    <EmbeddedResource Include="Assets\superrugby2.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -118,6 +122,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="SouthAfrica.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SuperRugby.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Top5Players.xaml">
