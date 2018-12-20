@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.JapanWin">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="White">
+
+                    <Image x:Name="japan1" Aspect="AspectFit"></Image>
+                    <Label Text="Japan Win Vs South Africa" Font="Italic, 80" TextColor="Red"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="A big Day for Japanese Rugby this was as a victory over probably one of the best international sides of all time, Japan put on a masterclass to beat the springboks 34-32 in the 2015 Rugby World Cup Group Stages. Japan had not won a World Cup game since 1991, while South Africa were world champions in both 1995 and 2007. The Springboks had named their most experienced Test side in history, with 851 caps in the starting XV, but they were below par in a number of areas."
+                  XAlign="Center"
+                  TextColor="Red"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="South Africa led at the end of the first half 12-10 after tries from Francois Louw and Bismark du Plessisand with Lood de Jager and Adriaan Strauss both scoring in the second half for the springboks a massive haul of 24 points from japan's Ayumu Goromaru plus the stopage time try from Karne Hesketh edged Japan to a glorious victory against south africa as it was up there with one of the biggest shocks in rugby history. "
+                  XAlign="Center"
+                  TextColor="Red"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Eddie Jones who was Head Coach at the time for Japan said It's quite incredible. We thought we could compete but to beat South Africa is a fantastic achievement for the team and it's a great day for Japanese rugby. Japan can only play one way, we've got a little team, so we have to move the ball around and cause problems. If you are a child in Japan you will watch this and you will want to play rugby for Japan [who are hosting the tournament in 2019] in the next World Cup."
+                  XAlign="Center"
+                  TextColor="Red"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="MeanWhile South Africa coach Heyneke Meyer said after the match I have to apologise to the nation. It was just not good enough. It was unacceptable and I take full responsibility. Every game is going to be tough but there are no excuses. We scored four tries but our discipline was not good enough and we can't give so many penalties away."
+                  XAlign="Center"
+                  TextColor="Red"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+
+                    <Image x:Name="japan2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

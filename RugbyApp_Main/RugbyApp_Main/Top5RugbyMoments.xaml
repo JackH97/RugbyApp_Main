@@ -5,4 +5,5 @@
             x:Class="RugbyApp_Main.Top5RugbyMoments">
     
     <Top5RugbyMoments:WilkinsonDropGoal Title="Johnny Wilkinson Drop Goal 2003"/>
+    <Top5RugbyMoments:JapanWin Title="Japan Win Vs South Africa"/>
 </TabbedPage>
