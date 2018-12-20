@@ -33,12 +33,7 @@
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Overall, the All Blacks have won 48 Tests against France's 12, with one match drawn. The largest winning margin in a Test between the countries was a 61–10 victory to the All Blacks at Westpac Stadium in Wellington in 2007. The most career points scored by members of either team is 92 by Andrew Mehrtens; he also holds the record for points in one match with 29."
-                  XAlign="Center"
-                  TextColor="White"
-                  FontSize="Medium"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"/>
+                 
 
                     <Image x:Name="leinstervsmunster2" Aspect="AspectFit"></Image>
 

@@ -56,6 +56,8 @@
     <None Remove="Assets\Pro142.jpg" />
     <None Remove="Assets\richiemccaw1.jpg" />
     <None Remove="Assets\richiemccaw2.jpg" />
+    <None Remove="Assets\Rugby951.jpg" />
+    <None Remove="Assets\Rugby952.jpg" />
     <None Remove="Assets\rugbyleague1.jpg" />
     <None Remove="Assets\rugbyleague2.jpg" />
     <None Remove="Assets\rugbyunion1.jpg" />
@@ -114,6 +116,8 @@
     <EmbeddedResource Include="Assets\Pro142.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw1.jpg" />
     <EmbeddedResource Include="Assets\richiemccaw2.jpg" />
+    <EmbeddedResource Include="Assets\Rugby951.jpg" />
+    <EmbeddedResource Include="Assets\Rugby952.jpg" />
     <EmbeddedResource Include="Assets\rugbyleague1.jpg" />
     <EmbeddedResource Include="Assets\rugbyleague2.jpg" />
     <EmbeddedResource Include="Assets\rugbyunion1.jpg" />
@@ -132,6 +136,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="RugbyWorldCup1995.xaml.cs">
+      <DependentUpon>RugbyWorldCup1995.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="RugbyWorldCup1995.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="BrianODriscoll.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

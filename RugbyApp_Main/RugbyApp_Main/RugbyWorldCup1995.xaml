@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.RugbyWorldCup1995">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="DarkGreen">
+
+                    <Image x:Name="Rugby951" Aspect="AspectFit"></Image>
+                    <Label Text="Rugby World Cup 1995" Font="Italic, 80" TextColor="Gold"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="The 1995 Rugby World Cup was the third Rugby World Cup. It was hosted and won by South Africa, and was the first Rugby World Cup in which every match was held in one country."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The World Cup was the first major sporting event to take place in South Africa following the end of apartheid. It was also the first World Cup in which South Africa was allowed to compete; the International Rugby Football Board (IRFB, now World Rugby) had only readmitted South Africa to international rugby in 1992, following negotiations to end apartheid. The World Cup would also be the last major event of rugby union's amateur era; two months after the tournament, the IRFB opened the sport to professionalism."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="In the final, held at Ellis Park in Johannesburg on 24 June, South Africa defeated New Zealand 15–12, with Joel Stransky scoring a drop goal in extra time to win the match. Following South Africa's victory, Nelson Mandela, the President of South Africa, wearing a Springboks rugby shirt and cap, presented the Webb Ellis Cup to the South African captain François Pienaar."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Apartheid was a system of institutionalised racial segregation that existed in South Africa from 1948 until the early 1990s. Apartheid was characterised by an authoritarian political culture based on baasskap (or white supremacy), which encouraged state repression of Black African, Coloured, and Asian South Africans for the benefit of the nation's minority white population. The economic legacy and social effects of apartheid continue to the present day."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The final was contested by New Zealand and hosts South Africa. Both nations finished undefeated at the top of their pools. South Africa defeated Western Samoa in the quarter finals, and then France in the semi-finals to reach the final; New Zealand defeated Scotland in the quarter-finals, and England in the semi-finals, a game in which Jonah Lomu famously scored four tries for the All Blacks. The final was played at Ellis Park in Johannesburg and refereed by Ed Morrison of England. To this point, New Zealand had led the tournament in production, outscoring their opponents 315–104, while South Africa had outscored its opponents 129–55. The tight Springbok defence would keep the high scoring All Blacks in check – particularly Jonah Lomu and Marc Ellis, who had already scored a then World Cup record 7 tries each in the tournament – with neither team scoring a try in the match."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="South Africa led 9–6 at half time, and New Zealand levelled the scores at 9–9 with a drop goal in the second half. Though Andrew Mehrtens almost kicked a late drop goal for the All Blacks, the score remained tied at full-time, forcing the game into extra time. Both teams scored penalty goals in the first half of extra time, but Joel Stransky then scored a drop goal to win the final for South Africa."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="What happened after the match has become an iconic moment in the history of the sport. Nelson Mandela, wearing a Springbok rugby jersey and baseball cap, presented the Webb Ellis Cup to South African captain François Pienaar to the delight of the capacity crowd. The moment is thought by some to be one of the most famous finals of any sport."
+                  XAlign="Center"
+                  TextColor="Gold"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Image x:Name="Rugby952" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
