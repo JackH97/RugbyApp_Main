@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.FirstWorldCupFinal">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="Black">
+
+                    <Image x:Name="firstfinal1" Aspect="AspectFit"></Image>
+                    <Label Text="First Rugby World Cup" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="The 1987 Rugby World Cup Final was the final match in the 1987 Rugby World Cup, the first Rugby World Cup played. It was played at Eden Park in Auckland, New Zealand on 20 June 1987 between the hosts New Zealand and France. The referee of the match was the Australian Kerry Fitzgerald. New Zealand won the match 29–9 with three tries, one conversion, four penalties and a drop goal, becoming the first winners of the Rugby World Cup."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="In front of a capacity crowd at Eden Park, hosts New Zealand met France in the inaugural Rugby World Cup Final. In the First Half France seemed lacklustre following their amazing win over Australia in the semi-final . New Zealand played a mainly kicking game in the first half with Grant Fox kicking for territory and position . A Fox drop goal after 14 minutes settled home nerves . A try by the World Cup's star performer Michael Jones, followed just 3 minutes later . Jones' try was converted by Fox, a tense final was finely balanced at half time with New Zealand leading France 9–0 ."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="France came out in the Second Half with renewed vigour after the break and a Didier Camberabero penalty four minutes into the half put France on the scoreboard . The France fightback was, however, short-lived and New Zealand forward power in the setpiece and open play was to the fore . Tries by David Kirk and John Kirwan together with the relentlessly accurate goal kicking of Fox meant that going into the final moments New Zealand led 29–3 . A final surge near the whistle led to a France try through Pierre Berbizier . The try was converted as the last kick of the game by Didier Camberabero . The final had hardly lived up to its billing, probably due to the exertions by France in their semi-final win. It was however fitting that tries from three stars of the tournament Jones, Kirk and Kirwan won the contest and gave New Zealand the Webb Ellis Cup."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Image x:Name="firstfinal2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
