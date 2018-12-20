@@ -47,7 +47,7 @@
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Image x:Name="newzealand2" Aspect="AspectFit"></Image>
+                  <Image x:Name="newzealand2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

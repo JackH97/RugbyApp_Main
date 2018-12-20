@@ -7,40 +7,40 @@
             <ScrollView>
                 <StackLayout BackgroundColor="DarkGreen">
 
-                    <Image x:Name="ireland1" Aspect="AspectFit"></Image>
-                    <Label Text="Ireland" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="ireland1" Aspect="AspectFit"></Image>
+                  <Label Text="Ireland" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="The Ireland national rugby union team represents the island of Ireland in rugby union. They are ranked second in the world by World Rugby as of 19 November 2018. The team competes annually in the current Six Nations Championship, which they have won fourteen times outright and shared nine times in its various formats. The team also competes every four years in the Rugby World Cup, where they reached the quarter-final stage in all but two competitions (1999 and 2007). Ireland is also one of the four unions that make up the British and Irish Lions – players eligible to play for Ireland are also eligible for the Lions."
+                  <Label Text="The Ireland national rugby union team represents the island of Ireland in rugby union. They are ranked second in the world by World Rugby as of 19 November 2018. The team competes annually in the current Six Nations Championship, which they have won fourteen times outright and shared nine times in its various formats. The team also competes every four years in the Rugby World Cup, where they reached the quarter-final stage in all but two competitions (1999 and 2007). Ireland is also one of the four unions that make up the British and Irish Lions – players eligible to play for Ireland are also eligible for the Lions."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The Ireland national team dates to 1875, when it played its first international match against England. Ireland's highest ever position in the World Rugby Rankings is second, which they reached for the first time in 2015."
+                  <Label Text="The Ireland national team dates to 1875, when it played its first international match against England. Ireland's highest ever position in the World Rugby Rankings is second, which they reached for the first time in 2015."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Eleven former Ireland players have earned induction into the World Rugby Hall of Fame."
+                  <Label Text="Eleven former Ireland players have earned induction into the World Rugby Hall of Fame."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Ireland's traditional strip consists of a green jersey, white shorts, and green socks. Their emblem consists of a shamrock and rugby ball. A shamrock has been incorporated into the emblem since the side first played in 1874."
+                  <Label Text="Ireland's traditional strip consists of a green jersey, white shorts, and green socks. Their emblem consists of a shamrock and rugby ball. A shamrock has been incorporated into the emblem since the side first played in 1874."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Image x:Name="ireland2" Aspect="AspectFit"></Image>
+                  <Image x:Name="ireland2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

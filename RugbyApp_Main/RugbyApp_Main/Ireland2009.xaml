@@ -7,26 +7,26 @@
             <ScrollView>
                 <StackLayout BackgroundColor="Green">
 
-                    <Image x:Name="irelandgs1" Aspect="AspectFit"></Image>
-                    <Label Text="Ireland 2009 Grand Slam" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="irelandgs1" Aspect="AspectFit"></Image>
+                  <Label Text="Ireland 2009 Grand Slam" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="Saturday, the 21st Of March will go down in Irish Rugby History as Ireland claimed their first Grand Slam in 61 years in a sensational climax to the 2009 Six Nations Championship."
+                  <Label Text="Saturday, the 21st Of March will go down in Irish Rugby History as Ireland claimed their first Grand Slam in 61 years in a sensational climax to the 2009 Six Nations Championship."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The Irish overturned a 6-0 interval deficit with early second-half tries from Brian O'Driscoll and Tommy Bowe. Stephen Jones kicked his third and fourth penalties and appeared to have won the Triple Crown for Wales with a drop-goal with five minutes remaining. But Ronan O'Gara's drop-goal regained the lead with two minutes left, and Jones's last-gasp penalty fell short. Wales, from being within two minutes of denying Ireland a Grand Slam, but not their first-ever Six Nations title, suddenly had to come to terms with finishing fourth in the championship."
+                  <Label Text="The Irish overturned a 6-0 interval deficit with early second-half tries from Brian O'Driscoll and Tommy Bowe. Stephen Jones kicked his third and fourth penalties and appeared to have won the Triple Crown for Wales with a drop-goal with five minutes remaining. But Ronan O'Gara's drop-goal regained the lead with two minutes left, and Jones's last-gasp penalty fell short. Wales, from being within two minutes of denying Ireland a Grand Slam, but not their first-ever Six Nations title, suddenly had to come to terms with finishing fourth in the championship."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Image x:Name="irelandgs2" Aspect="AspectFit"></Image>
+                  <Image x:Name="irelandgs2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

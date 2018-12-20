@@ -7,35 +7,33 @@
             <ScrollView>
                 <StackLayout BackgroundColor="Red">
 
-                    <Image x:Name="leinstervsmunster1" Aspect="AspectFit"></Image>
-                    <Label Text="Leinster Vs Munster" Font="Italic, 80" TextColor="White"
+                 <Image x:Name="leinstervsmunster1" Aspect="AspectFit"></Image>
+                 <Label Text="Leinster Vs Munster" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="Leinster versus Munster is, according to some Irish commentators, one of the biggest provincial rivalries in world rugby, which dates back to 1879, the year of founding of the provincial sides. Games between the two have occurred on an annual basis since the inception of the Irish inter-provincial championship in 1946. Since the beginning of the inter-provincials in 1946, Leinster hold a 49-42 advantage in overall wins, with five draws. Additionally, since the inception of the Celtic League in the 2001-02 season, Leinster hold a 22-15 advantage in overall wins, with one draw in that time."
+                  <Label Text="Leinster versus Munster is, according to some Irish commentators, one of the biggest provincial rivalries in world rugby, which dates back to 1879, the year of founding of the provincial sides. Games between the two have occurred on an annual basis since the inception of the Irish inter-provincial championship in 1946. Since the beginning of the inter-provincials in 1946, Leinster hold a 49-42 advantage in overall wins, with five draws. Additionally, since the inception of the Celtic League in the 2001-02 season, Leinster hold a 22-15 advantage in overall wins, with one draw in that time."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The fierce rivalry has grown since the turn of professionalism as both teams battled for domestic and European dominance, and has sometimes become a heated and bitter affair, on and off the pitch."
+                  <Label Text="The fierce rivalry has grown since the turn of professionalism as both teams battled for domestic and European dominance, and has sometimes become a heated and bitter affair, on and off the pitch."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The birth of the modern era rivalry could be attributed to the Heineken Cup semi-final in 2006, when Munster defeated Leinster 30–6 in Lansdowne Road en route to winning their first European Championship. Munster then went on to enjoy a period of success by again winning the European trophy in 2008. A shift in fortunes occurred in 2009 however, when Leinster defeated Munster 25–6 at the same stage of the competition in front of 82,208 spectators at Croke Park, which was a world record attendance for a club game,[3] before going on to claim the first of four European titles to Munster's two."
+                  <Label Text="The birth of the modern era rivalry could be attributed to the Heineken Cup semi-final in 2006, when Munster defeated Leinster 30–6 in Lansdowne Road en route to winning their first European Championship. Munster then went on to enjoy a period of success by again winning the European trophy in 2008. A shift in fortunes occurred in 2009 however, when Leinster defeated Munster 25–6 at the same stage of the competition in front of 82,208 spectators at Croke Park, which was a world record attendance for a club game,[3] before going on to claim the first of four European titles to Munster's two."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                 
-
-                    <Image x:Name="leinstervsmunster2" Aspect="AspectFit"></Image>
+                  <Image x:Name="leinstervsmunster2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

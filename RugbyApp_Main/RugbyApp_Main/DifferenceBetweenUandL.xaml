@@ -3,55 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RugbyApp_Main.DifferenceBetweenUandL">
     <ContentPage.Content>
-       <StackLayout>
-        <ScrollView>
-            <StackLayout BackgroundColor="Red">
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="Red">
 
                 <Image x:Name="diff1" Aspect="AspectFit"></Image>
                 <Label Text="Differences with Union and League" Font="Italic, 80" TextColor="Black"
-                  VerticalOptions="CenterAndExpand" 
-                  HorizontalOptions="CenterAndExpand" />
+                 VerticalOptions="CenterAndExpand" 
+                 HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="Rugby is divided into two main codes; Rugby League and Rugby Union. Although there are many similarities between the two variants of rugby, the differences are pronounced enough that the two codes can be considered to be two different games."
-                  XAlign="Center"
-                  TextColor="Black"
-                  FontSize="Medium"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"/>
+                <Label Text="Rugby is divided into two main codes; Rugby League and Rugby Union. Although there are many similarities between the two variants of rugby, the differences are pronounced enough that the two codes can be considered to be two different games."
+                 XAlign="Center"
+                 TextColor="Black"
+                 FontSize="Medium"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"/>
 
-                    <Label Text="The split between the disciplines first occurred in the 1890's, when some Northern clubs decided that they should begin to compensate players who had missed work in order to play. This move was not approved by the Rugby Football Union (RFU) who banned any payment for players, and therefore these Northern clubs decided to break away and form their own sporting body."
-                  XAlign="Center"
-                  TextColor="Black"
-                  FontSize="Medium"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"/>
+                 <Label Text="The split between the disciplines first occurred in the 1890's, when some Northern clubs decided that they should begin to compensate players who had missed work in order to play. This move was not approved by the Rugby Football Union (RFU) who banned any payment for players, and therefore these Northern clubs decided to break away and form their own sporting body."
+                 XAlign="Center"
+                 TextColor="Black"
+                 FontSize="Medium"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"/>
 
-                    <Label Text="Although payments were permitted to players of Rugby League, Rugby Union was not openly professionalised until 100 years later. Payments are now permitted to athletes from both codes."
-                  XAlign="Center"
-                  TextColor="Black"
-                  FontSize="Medium"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"/>
+                 <Label Text="Although payments were permitted to players of Rugby League, Rugby Union was not openly professionalised until 100 years later. Payments are now permitted to athletes from both codes."
+                 XAlign="Center"
+                 TextColor="Black"
+                 FontSize="Medium"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"/>
 
-                    <Label Text="Rugby players are not always constrained by the code in which they first learned how to play rugby. Many amateur and professional players have moved between the two (and back again) during the course of their careers. In fact, some showcase competitions have been played between teams who are actually famed for their success in opposing codes, to see how well they would perform against one another. Because there are fewer players to cover the field, and because the ball is in play more frequently, some rugby fans argue that rugby league is more physically demanding than union."
-                  XAlign="Center"
-                  TextColor="Black"
-                  FontSize="Medium"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"/>
+                 <Label Text="Rugby players are not always constrained by the code in which they first learned how to play rugby. Many amateur and professional players have moved between the two (and back again) during the course of their careers. In fact, some showcase competitions have been played between teams who are actually famed for their success in opposing codes, to see how well they would perform against one another. Because there are fewer players to cover the field, and because the ball is in play more frequently, some rugby fans argue that rugby league is more physically demanding than union."
+                 XAlign="Center"
+                 TextColor="Black"
+                 FontSize="Medium"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"/>
 
-                    <Label Text="In the first instance, rugby union and rugby league were often divided along class lines. Because working-class players could not afford to take time off from work in order to play sports, they were often unable to spend time training and playing Rugby Union. However, as players were able to gain remuneration when playing Rugby League, it was a more popular code amongst working-class sportsmen. In contrast, Rugby Union was often played in grammar schools, public schools and at university. This helped to create a strong class divide between the two codes. This class divide is also visible in Australia and New Zealand. In the United Kingdom, Rugby League is more popular in the north of England, whereas Rugby Union is more popular in the South."
-                  XAlign="Center"
-                  TextColor="Black"
-                  FontSize="Medium"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"/>
+                 <Label Text="In the first instance, rugby union and rugby league were often divided along class lines. Because working-class players could not afford to take time off from work in order to play sports, they were often unable to spend time training and playing Rugby Union. However, as players were able to gain remuneration when playing Rugby League, it was a more popular code amongst working-class sportsmen. In contrast, Rugby Union was often played in grammar schools, public schools and at university. This helped to create a strong class divide between the two codes. This class divide is also visible in Australia and New Zealand. In the United Kingdom, Rugby League is more popular in the north of England, whereas Rugby Union is more popular in the South."
+                 XAlign="Center"
+                 TextColor="Black"
+                 FontSize="Medium"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"/>
 
 
-                    <Image x:Name="diff2" Aspect="AspectFit"></Image>
+                 <Image x:Name="diff2" Aspect="AspectFit"></Image>
 
-            </StackLayout>
-        </ScrollView>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

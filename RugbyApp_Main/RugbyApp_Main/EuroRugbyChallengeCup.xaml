@@ -7,33 +7,33 @@
             <ScrollView>
                 <StackLayout BackgroundColor="DarkViolet">
 
-                    <Image x:Name="eurochallengecup1" Aspect="AspectFit"></Image>
-                    <Label Text="European Rugby Challenge Cup" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="eurochallengecup1" Aspect="AspectFit"></Image>
+                  <Label Text="European Rugby Challenge Cup" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="The European Rugby Challenge Cup is an annual European rugby union competition organised by European Professional Club Rugby. It is the second tier competition for clubs whose country's national team compete in the Six Nations Championship, as well as some teams from other European nations. The first edition on the tournament was in 2014, after it replaced the European Challenge Cup which had run since 1996, following disagreements in the structure of the format of the tournament and division of revenue."
+                  <Label Text="The European Rugby Challenge Cup is an annual European rugby union competition organised by European Professional Club Rugby. It is the second tier competition for clubs whose country's national team compete in the Six Nations Championship, as well as some teams from other European nations. The first edition on the tournament was in 2014, after it replaced the European Challenge Cup which had run since 1996, following disagreements in the structure of the format of the tournament and division of revenue."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Twenty teams qualify for the Challenge Cup, 18 from the three main European domestic leagues (English Premiership, Top 14, and Pro14), and two from the Continental Shield between teams from other European nations."
+                  <Label Text="Twenty teams qualify for the Challenge Cup, 18 from the three main European domestic leagues (English Premiership, Top 14, and Pro14), and two from the Continental Shield between teams from other European nations."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Cardiff Blues are the current Challenge Cup holders, having won the 2017-18 European Rugby Challenge Cup."
+                  <Label Text="Cardiff Blues are the current Challenge Cup holders, having won the 2017-18 European Rugby Challenge Cup."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Image x:Name="eurochallengecup2" Aspect="AspectFit"></Image>
+                  <Image x:Name="eurochallengecup2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

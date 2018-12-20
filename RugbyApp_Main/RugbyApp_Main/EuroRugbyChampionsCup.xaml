@@ -7,33 +7,33 @@
             <ScrollView>
                 <StackLayout BackgroundColor="DarkBlue">
 
-                    <Image x:Name="eurochampcup1" Aspect="AspectFit"></Image>
-                    <Label Text="European Rugby Champions Cup" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="eurochampcup1" Aspect="AspectFit"></Image>
+                  <Label Text="European Rugby Champions Cup" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="The European Rugby Champions Cup (known as the Heineken Champions Cup for sponsorship reasons) is an annual rugby union tournament organised by European Professional Club Rugby (EPCR). It is the top-tier competition for clubs whose countries' national teams compete in the Six Nations Championship. Clubs qualify for the Heineken Champions Cup via their final positions in their respective national/regional leagues (Gallagher Premiership, TOP 14, and Guinness Pro14) or via winning the second-tier Challenge Cup; those who do not qualify are instead eligible to compete in the second-tier Challenge Cup."
+                  <Label Text="The European Rugby Champions Cup (known as the Heineken Champions Cup for sponsorship reasons) is an annual rugby union tournament organised by European Professional Club Rugby (EPCR). It is the top-tier competition for clubs whose countries' national teams compete in the Six Nations Championship. Clubs qualify for the Heineken Champions Cup via their final positions in their respective national/regional leagues (Gallagher Premiership, TOP 14, and Guinness Pro14) or via winning the second-tier Challenge Cup; those who do not qualify are instead eligible to compete in the second-tier Challenge Cup."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Between 1995 and 2014, the competition was known as the Heineken Cup but was changed to European Rugby Champions Cup, following disagreements between its shareholders over the structure and governance of the competition. Heineken returned as sponsor for the 2018–19 season, running the competition alongside the EPCR, resulting in the competition being known as the Heineken Champions Cup."
+                  <Label Text="Between 1995 and 2014, the competition was known as the Heineken Cup but was changed to European Rugby Champions Cup, following disagreements between its shareholders over the structure and governance of the competition. Heineken returned as sponsor for the 2018–19 season, running the competition alongside the EPCR, resulting in the competition being known as the Heineken Champions Cup."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Leinster are the current holders of the title, having won their fourth title by beating Racing 92 in the 2018 final. Leinster Rugby and Toulouse have both won the competition a record four times."
+                  <Label Text="Leinster are the current holders of the title, having won their fourth title by beating Racing 92 in the 2018 final. Leinster Rugby and Toulouse have both won the competition a record four times."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                  <Image x:Name="eurochampcup2" Aspect="AspectFit"></Image>
+                 <Image x:Name="eurochampcup2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

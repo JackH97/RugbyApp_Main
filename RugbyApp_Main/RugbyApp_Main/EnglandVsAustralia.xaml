@@ -7,40 +7,40 @@
             <ScrollView>
                 <StackLayout BackgroundColor="Gold">
 
-                    <Image x:Name="englandvsaustralia1" Aspect="AspectFit"></Image>
-                    <Label Text="England Vs Australia" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="englandvsaustralia1" Aspect="AspectFit"></Image>
+                  <Label Text="England Vs Australia" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="The rivalry between England and Australia started on 9 January 1909 at Blackheath's Rectory Field in England. The Wallabies won the match 9-3. The two nations next met in 1928, at Twickenham, and England won 18-11. Twenty years passed before England and Australia next met, again at Twickenham, with Australia winning the 1948 test 11-0. It would then be another decade until the two nations played another test against one another. In 1958, they met again at Twickenham, and England won 9-6."
+                  <Label Text="The rivalry between England and Australia started on 9 January 1909 at Blackheath's Rectory Field in England. The Wallabies won the match 9-3. The two nations next met in 1928, at Twickenham, and England won 18-11. Twenty years passed before England and Australia next met, again at Twickenham, with Australia winning the 1948 test 11-0. It would then be another decade until the two nations played another test against one another. In 1958, they met again at Twickenham, and England won 9-6."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="England and Australia played each other twice during the 1960s, first in 1963, when the Wallabies defeated England 18-9 at Sydney's Sports Ground. They met again in 1967 and Australia triumphed 23-11 at Twickenham. The nations played each other another four times during the 1970s; with England winning 20-3 at Twickenham in 1973, Australia winning 16-9 at the Sydney Cricket Ground in 1975 and again that year 30-21 at Ballymore, and England winning in 1976, 23-6 at Twickenham."
+                  <Label Text="England and Australia played each other twice during the 1960s, first in 1963, when the Wallabies defeated England 18-9 at Sydney's Sports Ground. They met again in 1967 and Australia triumphed 23-11 at Twickenham. The nations played each other another four times during the 1970s; with England winning 20-3 at Twickenham in 1973, Australia winning 16-9 at the Sydney Cricket Ground in 1975 and again that year 30-21 at Ballymore, and England winning in 1976, 23-6 at Twickenham."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The two nations would meet six times during the 1980s, the first encounter was in 1982, with England defeating Australia 15-11 at Twickenham. Two years later the Wallabies were victorious at Twickenham, winning 19-3. The next match was a pool match in the 1987 Rugby World Cup at Sydney's Concord Oval in 1987, which Australia won 19-6. The nations played three times in 1988: Australia won 22-16 in Brisbane and 28-8 at the Concord Oval, with England winning the third and final match at Twickenham 28-19."
+                  <Label Text="The two nations would meet six times during the 1980s, the first encounter was in 1982, with England defeating Australia 15-11 at Twickenham. Two years later the Wallabies were victorious at Twickenham, winning 19-3. The next match was a pool match in the 1987 Rugby World Cup at Sydney's Concord Oval in 1987, which Australia won 19-6. The nations played three times in 1988: Australia won 22-16 in Brisbane and 28-8 at the Concord Oval, with England winning the third and final match at Twickenham 28-19."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The sides met three times during the 1990s before the end of amateur era and the introduction of the Cook Cup. The first match was in 1991 at the Sydney Football Stadium, won 40-15 by Australia. The next match was the 1991 Rugby World Cup Final at Twickenham, which the Wallabies won 12-6. with Tim Daly scoring the only try of the game. The last pre-Cook Cup match was a quarter-final tie at the 1995 Rugby World Cup in South Africa, played at Newlands Stadium in Cape Town. England won 25-22, thanks to a last-minute drop goal by Rob Andrew."
+                  <Label Text="The sides met three times during the 1990s before the end of amateur era and the introduction of the Cook Cup. The first match was in 1991 at the Sydney Football Stadium, won 40-15 by Australia. The next match was the 1991 Rugby World Cup Final at Twickenham, which the Wallabies won 12-6. with Tim Daly scoring the only try of the game. The last pre-Cook Cup match was a quarter-final tie at the 1995 Rugby World Cup in South Africa, played at Newlands Stadium in Cape Town. England won 25-22, thanks to a last-minute drop goal by Rob Andrew."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Image x:Name="englandvsaustralia2" Aspect="AspectFit"></Image>
+                  <Image x:Name="englandvsaustralia2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>

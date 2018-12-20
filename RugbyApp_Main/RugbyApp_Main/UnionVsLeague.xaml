@@ -4,10 +4,8 @@
              xmlns:UnionVsLeague="clr-namespace:RugbyApp_Main"
             x:Class="RugbyApp_Main.UnionVsLeague">
 
-
     <UnionVsLeague:RugbyUnion Title="Rugby Union"/>
     <UnionVsLeague:RugbyLeague Title="Rugby league"/>
     <UnionVsLeague:DifferenceBetweenUandL Title="Differences Between Union and Leagues"/>
-    
     
 </TabbedPage>

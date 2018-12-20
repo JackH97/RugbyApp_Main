@@ -7,26 +7,26 @@
             <ScrollView>
                 <StackLayout BackgroundColor="DarkGreen">
 
-                    <Image x:Name="rugbyunion1" Aspect="AspectFit"></Image>
-                    <Label Text="Rugby Union" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="rugbyunion1" Aspect="AspectFit"></Image>
+                  <Label Text="Rugby Union" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="In Rugby Union, each side has 15 active players, and 7 substitutions are allowed by each side during the course of the day. Players aim to score points by touching the ball down past the opposing team's try line. Points can also be scored by kicking the ball through the correct section of the goal posts."
+                  <Label Text="In Rugby Union, each side has 15 active players, and 7 substitutions are allowed by each side during the course of the day. Players aim to score points by touching the ball down past the opposing team's try line. Points can also be scored by kicking the ball through the correct section of the goal posts."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="When a player is tackled, the ball can then be picked up by any player from any team, so long as they are on their feet and they have come from an onside position. In theory, there is not a finite number of tackles. If the ball is out of play, a line-out will be awarded to restart the game."
+                  <Label Text="When a player is tackled, the ball can then be picked up by any player from any team, so long as they are on their feet and they have come from an onside position. In theory, there is not a finite number of tackles. If the ball is out of play, a line-out will be awarded to restart the game."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="Other minor infringements are solved with scrums. These scrums normally consist of 8 people. In Union, a try earns 5 points, a penalty kick or a drop goal is worth 3 points, and conversion kick is worth 2 points."
+                  <Label Text="Other minor infringements are solved with scrums. These scrums normally consist of 8 people. In Union, a try earns 5 points, a penalty kick or a drop goal is worth 3 points, and conversion kick is worth 2 points."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"

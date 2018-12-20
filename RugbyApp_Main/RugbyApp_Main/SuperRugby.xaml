@@ -7,40 +7,40 @@
             <ScrollView>
                 <StackLayout BackgroundColor="LightBlue">
 
-                    <Image x:Name="superrugby1" Aspect="AspectFit"></Image>
-                    <Label Text="Pro14" Font="Italic, 80" TextColor="White"
+                  <Image x:Name="superrugby1" Aspect="AspectFit"></Image>
+                  <Label Text="Pro14" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                    <Label Text="Super Rugby is a professional men's rugby union competition involving teams from Argentina, Australia, New Zealand, South Africa and Japan. Building on various Southern Hemisphere competitions dating back to the South Pacific Championship in 1986, with teams from a number of southern nations, Super Rugby started as the Super 12 in the 1996 season with 12 teams from Australia, New Zealand and South Africa. The Super 12 was established by SANZAR after the sport became professional in 1995."
+                  <Label Text="Super Rugby is a professional men's rugby union competition involving teams from Argentina, Australia, New Zealand, South Africa and Japan. Building on various Southern Hemisphere competitions dating back to the South Pacific Championship in 1986, with teams from a number of southern nations, Super Rugby started as the Super 12 in the 1996 season with 12 teams from Australia, New Zealand and South Africa. The Super 12 was established by SANZAR after the sport became professional in 1995."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The name was changed to Super 14 with the addition of two teams for the 2006 season, and with expansion to 15 teams in the three countries for the 2011 season, the competition was rebranded as Super Rugby (with no number). In 2016 two new teams, the Jaguares from Argentina and Sunwolves from Japan, joined the competition, playing in two newly separated African groups."
+                  <Label Text="The name was changed to Super 14 with the addition of two teams for the 2006 season, and with expansion to 15 teams in the three countries for the 2011 season, the competition was rebranded as Super Rugby (with no number). In 2016 two new teams, the Jaguares from Argentina and Sunwolves from Japan, joined the competition, playing in two newly separated African groups."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="In 2018, the competition underwent another change in format, this time dropping two teams (the Cheetahs and Kings) from the South African conference, and one (Western Force) from the Australian conference. This left the competition with 15 teams."
+                  <Label Text="In 2018, the competition underwent another change in format, this time dropping two teams (the Cheetahs and Kings) from the South African conference, and one (Western Force) from the Australian conference. This left the competition with 15 teams."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Label Text="The competition has been dominated by New Zealand teams, who have won 16 times in 23 years. The Crusaders have won most often, with nine titles."
+                  <Label Text="The competition has been dominated by New Zealand teams, who have won 16 times in 23 years. The Crusaders have won most often, with nine titles."
                   XAlign="Center"
                   TextColor="White"
                   FontSize="Medium"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"/>
 
-                    <Image x:Name="superrugby2" Aspect="AspectFit"></Image>
+                  <Image x:Name="superrugby2" Aspect="AspectFit"></Image>
 
                 </StackLayout>
             </ScrollView>
