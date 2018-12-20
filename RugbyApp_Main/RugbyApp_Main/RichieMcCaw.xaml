@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.RichieMcCaw">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Black">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="richiemccaw1" Aspect="AspectFit"></Image>
                   <Label Text="Richie McCaw" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="Richard Hugh McCaw ONZ (born 31 December 1980) is a retired New Zealand rugby union player. He captained the national team, the All Blacks, in 110 out of his 148 test matches, and won two Rugby World Cups. He is the most capped test rugby player of all time, and has won the World Rugby player of the year award a joint record three times."
                   XAlign="Center"
                   FontSize="Medium"

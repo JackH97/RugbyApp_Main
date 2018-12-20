@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.Pro14">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Black">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="Pro141" Aspect="AspectFit"></Image>
                   <Label Text="Pro14" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The PRO14 (known as the Guinness PRO14 for sponsorship reasons) is an annual rugby union competition involving professional sides from Ireland, Italy, Scotland, South Africa and Wales. The league is one of the three major professional leagues in Europe (along with the English Premiership and the French Top 14), the most successful European teams from which go forward to compete in the European Rugby Champions Cup, the pan-European championship which replaced the Heineken Cup after the 2013–14 season."
                   XAlign="Center"
                   TextColor="White"

@@ -4,6 +4,7 @@
              xmlns:Top5Players="clr-namespace:RugbyApp_Main"
             x:Class="RugbyApp_Main.Top5Players">
 
+    <!-- The TabbedPage part for Top5Players -->
     <Top5Players:BrianODriscoll Title="Brian O'Driscoll"/>
     <Top5Players:JonahLomu Title="Jonah Lomu"/>
     <Top5Players:RichieMcCaw Title="Richie McCaw"/>

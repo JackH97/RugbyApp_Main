@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.RugbyWorldCup1995">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="DarkGreen">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="Rugby951" Aspect="AspectFit"></Image>
                   <Label Text="Rugby World Cup 1995" Font="Italic, 80" TextColor="Gold" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The 1995 Rugby World Cup was the third Rugby World Cup. It was hosted and won by South Africa, and was the first Rugby World Cup in which every match was held in one country."
                   XAlign="Center"
                   TextColor="Gold"

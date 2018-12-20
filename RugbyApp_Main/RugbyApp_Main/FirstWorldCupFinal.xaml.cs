@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public FirstWorldCupFinal ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for FirstWorldCupFinal class
             image1();
             image2();
         }

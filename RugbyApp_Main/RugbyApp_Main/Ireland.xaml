@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.Ireland">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="DarkGreen">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="ireland1" Aspect="AspectFit"></Image>
                   <Label Text="Ireland" Font="Italic, 80" TextColor="White"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The Ireland national rugby union team represents the island of Ireland in rugby union. They are ranked second in the world by World Rugby as of 19 November 2018. The team competes annually in the current Six Nations Championship, which they have won fourteen times outright and shared nine times in its various formats. The team also competes every four years in the Rugby World Cup, where they reached the quarter-final stage in all but two competitions (1999 and 2007). Ireland is also one of the four unions that make up the British and Irish Lions – players eligible to play for Ireland are also eligible for the Lions."
                   XAlign="Center"
                   TextColor="White"

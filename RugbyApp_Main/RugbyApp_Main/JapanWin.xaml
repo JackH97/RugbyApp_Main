@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.JapanWin">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="White">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="japan1" Aspect="AspectFit"></Image>
                   <Label Text="Japan Win Vs South Africa" Font="Italic, 80" TextColor="Red" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="A big Day for Japanese Rugby this was as a victory over probably one of the best international sides of all time, Japan put on a masterclass to beat the springboks 34-32 in the 2015 Rugby World Cup Group Stages. Japan had not won a World Cup game since 1991, while South Africa were world champions in both 1995 and 2007. The Springboks had named their most experienced Test side in history, with 851 caps in the starting XV, but they were below par in a number of areas."
                   XAlign="Center"
                   TextColor="Red"

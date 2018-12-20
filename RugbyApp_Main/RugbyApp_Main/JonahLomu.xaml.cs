@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public JonahLomu ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for Jonahlomu class
             image1();
             image2();
         }

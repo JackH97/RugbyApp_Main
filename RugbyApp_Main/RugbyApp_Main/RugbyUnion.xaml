@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.RugbyUnion">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="DarkGreen">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="rugbyunion1" Aspect="AspectFit"></Image>
                   <Label Text="Rugby Union" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="In Rugby Union, each side has 15 active players, and 7 substitutions are allowed by each side during the course of the day. Players aim to score points by touching the ball down past the opposing team's try line. Points can also be scored by kicking the ball through the correct section of the goal posts."
                   XAlign="Center"
                   TextColor="White"

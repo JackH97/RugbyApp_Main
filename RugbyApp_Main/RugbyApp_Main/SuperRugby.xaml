@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.SuperRugby">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="LightBlue">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="superrugby1" Aspect="AspectFit"></Image>
                   <Label Text="Super Rugby" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="Super Rugby is a professional men's rugby union competition involving teams from Argentina, Australia, New Zealand, South Africa and Japan. Building on various Southern Hemisphere competitions dating back to the South Pacific Championship in 1986, with teams from a number of southern nations, Super Rugby started as the Super 12 in the 1996 season with 12 teams from Australia, New Zealand and South Africa. The Super 12 was established by SANZAR after the sport became professional in 1995."
                   XAlign="Center"
                   TextColor="White"

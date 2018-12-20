@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.RugbyWorldCup">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Black">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="rugbyworldcup1" Aspect="AspectFit"></Image>
                   <Label Text="Rugby World Cup" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The Rugby World Cup is a men's rugby union tournament contested every four years between the top international teams. The tournament was first held in 1987, when the tournament was co-hosted by New Zealand and Australia."
                   XAlign="Center"
                   TextColor="White"

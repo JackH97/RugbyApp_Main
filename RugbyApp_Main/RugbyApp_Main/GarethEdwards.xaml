@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.GarethEdwards">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Red">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="garethedwards1" Aspect="AspectFit"></Image>
                   <Label Text="Gareth Edwards" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="Sir Gareth Owen Edwards, CBE (born 12 July 1947) is a Welsh former rugby union player who played scrum-half and has been described by the BBC as arguably the greatest player ever to don a Welsh jersey."
                   XAlign="Center"
                   TextColor="White"

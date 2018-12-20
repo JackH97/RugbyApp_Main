@@ -7,11 +7,13 @@
 
     <StackLayout>
         <Grid>
-        
+
+            <!--image setup for picture behind buttons-->
             <Image x:Name="backgroundPic" Aspect="AspectFit" />
 
             <Grid x:Name="MPRowAndColumn" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="50,50,50,50">
 
+                <!--to define height and width--!>
                  <Grid.RowDefinitions>
                 <RowDefinition Height="50" />
                 <RowDefinition Height="50" />

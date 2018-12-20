@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public LeinsterVsMunster ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for LeinsterVsMunster class
             image1();
             image2();
         }

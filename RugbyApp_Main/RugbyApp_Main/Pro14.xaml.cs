@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public Pro14 ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for Pro14 class
             image1();
             image2();
         }

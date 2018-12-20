@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public BrianODriscoll ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for BrianODriscoll class
             image1();
             image2();
         }

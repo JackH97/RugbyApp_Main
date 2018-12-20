@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public IrelandVsEngland ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for IrelandVsEngland class
             image1();
             image2();
         }

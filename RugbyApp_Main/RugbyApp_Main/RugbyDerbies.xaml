@@ -3,7 +3,8 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:RugbyDerbies="clr-namespace:RugbyApp_Main"
             x:Class="RugbyApp_Main.RugbyDerbies">
-
+    
+    <!--The Tabbed page Section for Rugby Derbies -->
     <RugbyDerbies:IrelandVsEngland Title="Ireland VS England"/>
     <RugbyDerbies:NewZealandVsFrance Title="New Zealand Vs France"/>
     <RugbyDerbies:LeinsterVsMunster Title="Leinster Vs Munster"/>

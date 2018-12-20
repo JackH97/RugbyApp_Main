@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.NewZealand">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Black">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="newzealand1" Aspect="AspectFit"></Image>
                   <Label Text="New Zealand" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The New Zealand national rugby union team, called the All Blacks, represents New Zealand in men's rugby union, which is known as the country's national sport. The team has won the last two Rugby World Cups, in 2011 and 2015 as well as the inaugural tournament in 1987."
                   XAlign="Center"
                   TextColor="White"

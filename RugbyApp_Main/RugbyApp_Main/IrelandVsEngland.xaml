@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.IrelandVsEngland">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="DarkGreen">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="IrelandVsEngland1" Aspect="AspectFit"></Image>
                   <Label Text="Ireland Vs England" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="England and Ireland have played rugby union internationals since 1875, with England winning the first match at The Oval, London by two goals to nil. (A points scoring system was not used in rugby at the time.) The two teams have played a total of 133 Test matches; with England winning 76 of them, Ireland 49 and 8 resulting in a draw."
                   XAlign="Center"
                   TextColor="White"

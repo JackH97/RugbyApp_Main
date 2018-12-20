@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.LeinsterVsMunster">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Red">
 
-                 <Image x:Name="leinstervsmunster1" Aspect="AspectFit"></Image>
+                  <!--image setup for the top picture-->
+                  <Image x:Name="leinstervsmunster1" Aspect="AspectFit"></Image>
                   <Label Text="Leinster Vs Munster" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="Leinster versus Munster is, according to some Irish commentators, one of the biggest provincial rivalries in world rugby, which dates back to 1879, the year of founding of the provincial sides. Games between the two have occurred on an annual basis since the inception of the Irish inter-provincial championship in 1946. Since the beginning of the inter-provincials in 1946, Leinster hold a 49-42 advantage in overall wins, with five draws. Additionally, since the inception of the Celtic League in the 2001-02 season, Leinster hold a 22-15 advantage in overall wins, with one draw in that time."
                   XAlign="Center"
                   TextColor="White"

@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.NewZealandVsFrance">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Black">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="newzealandvsfrance1" Aspect="AspectFit"></Image>
                   <Label Text="New Zealand Vs France" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The national rugby union teams of France and New Zealand (the All Blacks) have been playing each other for over a century; as of 19 October 2015, they have played 56 Test matches against each other. The first encounter, which was also France's first Test, took place in Paris in January 1906 and was won by New Zealand 38–8. It was not until 1954 that France secured their first win over New Zealand (3–0)."
                   XAlign="Center"
                   TextColor="White"

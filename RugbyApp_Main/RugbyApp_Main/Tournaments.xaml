@@ -4,6 +4,7 @@
              xmlns:Tournaments="clr-namespace:RugbyApp_Main"
             x:Class="RugbyApp_Main.Tournaments">
 
+    <!--The Tabbed Pages for Tournaments-->
     <Tournaments:EuroRugbyChampionsCup Title="European Rugby Champions Cup"/>
     <Tournaments:EuroRugbyChallengeCup Title="European Rugby Challenge Cup"/>
     <Tournaments:Pro14 Title="Pro 14"/>

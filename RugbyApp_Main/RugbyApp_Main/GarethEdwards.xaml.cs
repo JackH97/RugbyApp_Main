@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public GarethEdwards ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for GarethEdwards class
             image1();
             image2();
         }

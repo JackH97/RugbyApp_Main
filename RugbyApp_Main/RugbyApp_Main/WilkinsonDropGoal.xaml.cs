@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public WilkinsonDropGoal ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for WilkinsonDropGoal class
             image1();
             image2();
         }

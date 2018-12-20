@@ -4,15 +4,18 @@
              x:Class="RugbyApp_Main.DifferenceBetweenUandL">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Red">
 
+                <!--image setup for the top picture-->
                 <Image x:Name="diff1" Aspect="AspectFit"></Image>
                 <Label Text="Differences with Union and League" Font="Italic, 80" TextColor="Black" XAlign="Center"
                  VerticalOptions="CenterAndExpand" 
                  HorizontalOptions="CenterAndExpand" />
 
-                <Label Text="Rugby is divided into two main codes; Rugby League and Rugby Union. Although there are many similarities between the two variants of rugby, the differences are pronounced enough that the two codes can be considered to be two different games."
+                 <!--image setup for the top picture-->
+                 <Label Text="Rugby is divided into two main codes; Rugby League and Rugby Union. Although there are many similarities between the two variants of rugby, the differences are pronounced enough that the two codes can be considered to be two different games."
                  XAlign="Center"
                  TextColor="Black"
                  FontSize="Medium"

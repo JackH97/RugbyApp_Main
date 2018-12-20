@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public DifferenceBetweenUandL ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for DifferenceBetweenUandL class
             image1();
             image2();
         }

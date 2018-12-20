@@ -12,6 +12,7 @@ namespace RugbyApp_Main
         public MainPage()
         {
             InitializeComponent();
+            //To create the variables for the images for JapanWin class
             BackImage();
         }
 
@@ -23,6 +24,7 @@ namespace RugbyApp_Main
 
         }
 
+        //The Buttons setup to go to different pages
         async void btnTop5_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Top5Players());

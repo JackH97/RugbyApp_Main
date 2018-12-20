@@ -10,7 +10,7 @@ namespace RugbyApp_Main
         public App()
         {
             InitializeComponent();
-
+            //To allow the MainPage to have navigation features
             MainPage = new NavigationPage(new MainPage());
         }
 

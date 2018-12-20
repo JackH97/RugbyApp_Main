@@ -4,6 +4,7 @@
              x:Class="RugbyApp_Main.DanCarter">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="White">
 
@@ -12,6 +13,7 @@
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="Daniel William Carter (born 5 March 1982) is a New Zealand rugby union player."
                   XAlign="Center"
                   FontSize="Medium"

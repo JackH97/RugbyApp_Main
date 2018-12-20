@@ -15,6 +15,7 @@ namespace RugbyApp_Main
 		public SuperRugby ()
 		{
 			InitializeComponent ();
+            //To create the variables for the images for SuperRugby class
             image1();
             image2();
         }

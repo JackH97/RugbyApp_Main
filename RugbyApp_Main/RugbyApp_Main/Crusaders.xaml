@@ -4,15 +4,18 @@
              x:Class="RugbyApp_Main.Crusaders">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="DarkRed">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="crusaders1" Aspect="AspectFit"></Image>
                   <Label Text="Crusaders" Font="Italic, 80" TextColor="Black" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
-                  <Label Text="The Crusaders (formerly the Canterbury Crusaders and officially the BNZ Crusaders due to sponsorship by the Bank of New Zealand) are a New Zealand professional rugby union team based in Christchurch, who compete in the Super Rugby competition. They have won 9 titles (1998, 1999, 2000, 2002, 2005, 2006, 2008, 2017 and 2018)."
+                 <!--labels for the text-->
+                 <Label Text="The Crusaders (formerly the Canterbury Crusaders and officially the BNZ Crusaders due to sponsorship by the Bank of New Zealand) are a New Zealand professional rugby union team based in Christchurch, who compete in the Super Rugby competition. They have won 9 titles (1998, 1999, 2000, 2002, 2005, 2006, 2008, 2017 and 2018)."
                   XAlign="Center"
                   TextColor="Black"
                   FontSize="Medium"

@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.WilkinsonDropGoal">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Red">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="dropgoal1" Aspect="AspectFit"></Image>
                   <Label Text="Wilkinson Drop Goal 2003" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The 2003 Rugby World Cup Final was the final match in the 2003 Rugby World Cup, the fifth Rugby World Cup. The match was played between England and Australia on 22 November 2003 at Telstra Stadium in Sydney in front of a crowd of 82,957."
                   XAlign="Center"
                   TextColor="White"

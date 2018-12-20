@@ -4,6 +4,7 @@
              xmlns:RugbyTeams="clr-namespace:RugbyApp_Main"
             x:Class="RugbyApp_Main.RugbyTeams">
 
+    <!--The Tabbed Page Section for RugbyTeams -->
     <RugbyTeams:NewZealand Title="New Zealand"/>
     <RugbyTeams:Ireland Title="Ireland"/>
     <RugbyTeams:SouthAfrica Title="South Africa"/>

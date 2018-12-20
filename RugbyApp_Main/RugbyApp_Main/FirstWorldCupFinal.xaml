@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.FirstWorldCupFinal">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Black">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="firstfinal1" Aspect="AspectFit"></Image>
                   <Label Text="First Rugby World Cup" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The 1987 Rugby World Cup Final was the final match in the 1987 Rugby World Cup, the first Rugby World Cup played. It was played at Eden Park in Auckland, New Zealand on 20 June 1987 between the hosts New Zealand and France. The referee of the match was the Australian Kerry Fitzgerald. New Zealand won the match 29–9 with three tries, one conversion, four penalties and a drop goal, becoming the first winners of the Rugby World Cup."
                   XAlign="Center"
                   TextColor="White"

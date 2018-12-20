@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.EnglandVsWales">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="DarkRed">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="englandvswales1" Aspect="AspectFit"></Image>
                   <Label Text="England Vs Wales" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="England and Wales have played each other at rugby union since 1881. A total of 131 matches have been played, with England having won 62 times, Wales having won 57 times and 12 matches having been drawn. There is a considerable rivalry between the sides due to the proximity of the two nations and the history between them."
                   XAlign="Center"
                   TextColor="White"

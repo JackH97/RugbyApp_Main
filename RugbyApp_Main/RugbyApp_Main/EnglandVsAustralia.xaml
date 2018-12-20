@@ -4,14 +4,17 @@
              x:Class="RugbyApp_Main.EnglandVsAustralia">
     <ContentPage.Content>
         <StackLayout>
+            <!--Allow the user to scroll on the page-->
             <ScrollView>
                 <StackLayout BackgroundColor="Gold">
 
+                  <!--image setup for the top picture-->
                   <Image x:Name="englandvsaustralia1" Aspect="AspectFit"></Image>
                   <Label Text="England Vs Australia" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
+                  <!--labels for the text-->
                   <Label Text="The rivalry between England and Australia started on 9 January 1909 at Blackheath's Rectory Field in England. The Wallabies won the match 9-3. The two nations next met in 1928, at Twickenham, and England won 18-11. Twenty years passed before England and Australia next met, again at Twickenham, with Australia winning the 1948 test 11-0. It would then be another decade until the two nations played another test against one another. In 1958, they met again at Twickenham, and England won 9-6."
                   XAlign="Center"
                   TextColor="White"
