@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RugbyApp_Main.WilkinsonDropGoal">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="Red">
+
+                    <Image x:Name="dropgoal1" Aspect="AspectFit"></Image>
+                    <Label Text="Wilkinson Drop Goal 2003" Font="Italic, 80" TextColor="White"
+                  VerticalOptions="CenterAndExpand" 
+                  HorizontalOptions="CenterAndExpand" />
+
+                    <Label Text="The 2003 Rugby World Cup Final was the final match in the 2003 Rugby World Cup, the fifth Rugby World Cup. The match was played between England and Australia on 22 November 2003 at Telstra Stadium in Sydney in front of a crowd of 82,957."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The First half started out with the first points of the final were scored by Australia. In the sixth minute, Lote Tuqiri outjumped the much shorter Jason Robinson and scored a try, following a sensational cross field kick from Wallaby fly-half Stephen Larkham. The conversion unsuccessfully crashed against a post. Jonny Wilkinson kicked a penalty goal for England in the 11th minute, bringing the score to 5–3. A further penalty goal by Wilkinson in the 20th minute took England into the lead, 6–5. In the 28th minute, following a Wallabies infringement Wilkinson slotted a penalty to make it 9–5. Following a flowing attacking move involving English forwards and backs, Robinson slid into the corner for a try for England in the 38th minute. England led at half-time 14–5."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="The Second half then began with Elton Flatley kicked a penalty goal for Australia in the 47th minute, after the England scrummage was penalized by referee Andre Watson, taking the score to 14–8. With England dominant in possession but lacking in finishing Wilkinson made 2 unsuccessful drop goal attempts. England's forwards were again penalized by Watson in the 61st minute, and Flatley kicked the penalty goal for Australia. England were again to suffer when Flatley kicked a penalty goal on the 80th minute, taking the score to 14-14, and the match headed into extra time."
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+                    <Label Text="Extra Time then began with Wilkinson and Flatley both scoring penalties to put the score at 17–17. After having the ball returned to England from a Mat Rogers kick, and with 26 seconds on the clock, Wilkinson kicked a drop goal right-footed and England held on to win their first and only Rugby World Cup 20–17. The kick cemented Johnny Wilkinson's status as one of the greatest No.10's of all time"
+                  XAlign="Center"
+                  TextColor="White"
+                  FontSize="Medium"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+
+                    <Image x:Name="dropgoal2" Aspect="AspectFit"></Image>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

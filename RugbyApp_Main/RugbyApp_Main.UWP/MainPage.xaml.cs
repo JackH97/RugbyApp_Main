@@ -21,6 +21,8 @@ namespace RugbyApp_Main.UWP
         {
             this.InitializeComponent();
 
+            
+
             LoadApplication(new RugbyApp_Main.App());
         }
     }

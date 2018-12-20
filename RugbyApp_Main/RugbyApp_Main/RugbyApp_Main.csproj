@@ -18,6 +18,8 @@
     <None Remove="Assets\dancarter2.jpg" />
     <None Remove="Assets\Diff1.jpg" />
     <None Remove="Assets\diff2.jpg" />
+    <None Remove="Assets\dropgoal1.jpg" />
+    <None Remove="Assets\dropgoal2.jpg" />
     <None Remove="Assets\englandvsaustralia1.jpg" />
     <None Remove="Assets\englandvsaustralia2.jpg" />
     <None Remove="Assets\englandvswales1.jpg" />
@@ -69,6 +71,8 @@
     <EmbeddedResource Include="Assets\dancarter2.jpg" />
     <EmbeddedResource Include="Assets\diff1.jpg" />
     <EmbeddedResource Include="Assets\diff2.jpg" />
+    <EmbeddedResource Include="Assets\dropgoal1.jpg" />
+    <EmbeddedResource Include="Assets\dropgoal2.jpg" />
     <EmbeddedResource Include="Assets\englandvsaustralia1.jpg" />
     <EmbeddedResource Include="Assets\englandvsaustralia2.jpg" />
     <EmbeddedResource Include="Assets\englandvswales1.jpg" />
@@ -111,6 +115,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Plugin.MediaManager.Forms" Version="0.4.5" />
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>
 
@@ -200,6 +205,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="UnionVsLeague.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="WilkinsonDropGoal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
