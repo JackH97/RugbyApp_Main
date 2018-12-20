@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="White">
 
                   <Image x:Name="japan1" Aspect="AspectFit"></Image>
-                  <Label Text="Japan Win Vs South Africa" Font="Italic, 80" TextColor="Red"
+                  <Label Text="Japan Win Vs South Africa" Font="Italic, 80" TextColor="Red" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 

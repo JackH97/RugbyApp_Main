@@ -10,7 +10,7 @@
         
             <Image x:Name="backgroundPic" Aspect="AspectFit" />
 
-              <Grid x:Name="MPRowAndColumn" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="50,50,50,50">
+            <Grid x:Name="MPRowAndColumn" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="50,50,50,50">
 
                  <Grid.RowDefinitions>
                 <RowDefinition Height="50" />
@@ -18,8 +18,8 @@
                 <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="180"/>
-                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
                 </Grid.ColumnDefinitions>
 
                 <Button x:Name="btnTop5" 

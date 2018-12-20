@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="DarkGreen">
 
                   <Image x:Name="southafrica1" Aspect="AspectFit"></Image>
-                  <Label Text="South Africa" Font="Italic, 80" TextColor="Gold"
+                  <Label Text="South Africa" Font="Italic, 80" TextColor="Gold" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 

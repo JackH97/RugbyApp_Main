@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="LightGreen">
             
                  <Image x:Name="bod2" Aspect="AspectFit"></Image>
-                 <Label Text="Brian O'Driscoll" Font="Italic, 80"
+                 <Label Text="Brian O'Driscoll" Font="Italic, 80" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 

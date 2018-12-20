@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="Green">
 
                   <Image x:Name="irelandgs1" Aspect="AspectFit"></Image>
-                  <Label Text="Ireland 2009 Grand Slam" Font="Italic, 80" TextColor="White"
+                  <Label Text="Ireland 2009 Grand Slam" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 

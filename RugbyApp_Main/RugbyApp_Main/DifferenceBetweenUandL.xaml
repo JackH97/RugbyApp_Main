@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="Red">
 
                 <Image x:Name="diff1" Aspect="AspectFit"></Image>
-                <Label Text="Differences with Union and League" Font="Italic, 80" TextColor="Black"
+                <Label Text="Differences with Union and League" Font="Italic, 80" TextColor="Black" XAlign="Center"
                  VerticalOptions="CenterAndExpand" 
                  HorizontalOptions="CenterAndExpand" />
 

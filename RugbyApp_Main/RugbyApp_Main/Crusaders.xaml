@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="DarkRed">
 
                   <Image x:Name="crusaders1" Aspect="AspectFit"></Image>
-                  <Label Text="Crusaders" Font="Italic, 80" TextColor="Black"
+                  <Label Text="Crusaders" Font="Italic, 80" TextColor="Black" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 

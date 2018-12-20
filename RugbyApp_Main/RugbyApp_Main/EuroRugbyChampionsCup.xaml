@@ -8,7 +8,7 @@
                 <StackLayout BackgroundColor="DarkBlue">
 
                   <Image x:Name="eurochampcup1" Aspect="AspectFit"></Image>
-                  <Label Text="European Rugby Champions Cup" Font="Italic, 80" TextColor="White"
+                  <Label Text="European Rugby Champions Cup" Font="Italic, 80" TextColor="White" XAlign="Center"
                   VerticalOptions="CenterAndExpand" 
                   HorizontalOptions="CenterAndExpand" />
 
