@@ -34,6 +34,8 @@
     <None Remove="Assets\HomePic1.jpg" />
     <None Remove="Assets\ireland1.png" />
     <None Remove="Assets\ireland2.jpg" />
+    <None Remove="Assets\irelandgs1.jpg" />
+    <None Remove="Assets\irelandgs2.jpg" />
     <None Remove="Assets\IrelandVsEngland1.jpg" />
     <None Remove="Assets\IrelandVsEngland2.jpg" />
     <None Remove="Assets\japan1.jpg" />
@@ -88,6 +90,8 @@
     <EmbeddedResource Include="Assets\HomePic.jpg" />
     <EmbeddedResource Include="Assets\ireland1.png" />
     <EmbeddedResource Include="Assets\ireland2.jpg" />
+    <EmbeddedResource Include="Assets\irelandgs1.jpg" />
+    <EmbeddedResource Include="Assets\irelandgs2.jpg" />
     <EmbeddedResource Include="Assets\IrelandVsEngland1.jpg" />
     <EmbeddedResource Include="Assets\IrelandVsEngland2.jpg" />
     <EmbeddedResource Include="Assets\japan1.jpg" />
@@ -152,6 +156,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Ireland.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Ireland2009.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="IrelandVsEngland.xaml">
